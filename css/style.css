@@ -72,11 +72,11 @@
       align-items: center;
     }
 
-    .text {
+    .background-name {
       margin-bottom: 58px;
     }
 
-    .text span {
+    .background-name span {
       font-family: Raleway;
       color: #646262;
       font-size: 40px;
@@ -84,7 +84,7 @@
       line-height: 30px;
     }
 
-    .text span:first-child {
+    .background-name span:first-child {
       font-weight: 600;
       padding-right: 10px;
     }
