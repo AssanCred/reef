@@ -62,7 +62,7 @@
       height: 3705px;
     }
 
-    .backgr {
+    .background {
       background-image: url(../img/billboard.jpg);
       background-size: cover;
       height: 450px;
@@ -189,11 +189,11 @@
       bottom: -19px;
     }
 
-  .text-sec{
-    display: flex;
-    height: 36px;
-    flex-direction: column;
-  }
+    .text-sec {
+      display: flex;
+      height: 36px;
+      flex-direction: column;
+    }
 
     .text-sec span {
       font-family: Raleway;
@@ -208,4 +208,40 @@
       color: #8c8c8c;
       font-size: 13px;
       font-weight: 300;
+    }
+
+    .brend {
+      height: 270px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .brend a {
+      border-style: solid;
+      border-width: 3px;
+      border-color: #eae8e8;
+      box-sizing: border-box;
+      background-color: rgba(255, 255, 255, 0);
+      width: 130px;
+      height: 70px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .brend>a>img {
+      width: 124px;
+    }
+
+    .img-view {
+      background-color: #fcfcfc;
+      height: 545px;
+    }
+
+
+    .img {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
     }
