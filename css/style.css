@@ -29,7 +29,7 @@
       margin: 0 auto;
     }
 
-    header {
+    .header {
       height: 100px;
       display: flex;
       justify-content: space-between;
@@ -54,7 +54,7 @@
       font-weight: 400;
     }
 
-    nav a:hover {
+    .an-info a:hover, nav a:hover {
       color: #ec5483;
     }
 
@@ -66,17 +66,18 @@
       background-image: url(../img/billboard.jpg);
       background-size: cover;
       height: 450px;
+      width: 100%;
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
     }
 
-    .background-name {
+    .bd-info {
       margin-bottom: 58px;
     }
 
-    .background-name span {
+    .bd-info span {
       font-family: Raleway;
       color: #646262;
       font-size: 40px;
@@ -84,7 +85,7 @@
       line-height: 30px;
     }
 
-    .background-name span:first-child {
+    .bd-info span:first-child {
       font-weight: 600;
       padding-right: 10px;
     }
@@ -108,14 +109,14 @@
       background-color: rgba(236, 84, 131, 1)
     }
 
-    .anot {
+    .sector-a {
       height: 433px;
       display: flex;
       justify-content: space-between;
       align-items: center;
     }
 
-    .info {
+    .sr-a-info {
       height: 230px;
       width: 183px;
       font-family: Raleway;
@@ -130,14 +131,14 @@
       align-items: center;
     }
 
-    .info a {
+    .sr-a-infoa {
       color: #615f5f;
       font-size: 13px;
       font-weight: 600;
       text-decoration: none;
     }
 
-    .review-area {
+    .block-a {
       background-color: #fcfcfc;
       height: 561px;
     }
@@ -239,9 +240,37 @@
       height: 545px;
     }
 
-
     .img {
+      height: inherit;
       display: flex;
       justify-content: space-between;
       align-items: center;
+    }
+
+    .text-img {
+      display: flex;
+      justify-content: space-between;
+      flex-direction: column;
+      height: 345px;
+    }
+
+    .text-img span {
+      width: 264px;
+      font-family: Raleway;
+      color: #686868;
+      font-size: 14px;
+      font-weight: 600;
+      line-height: 24px;
+      text-align: left;
+      text-transform: uppercase;
+      margin-top: 25px;
+    }
+
+    .text-img span+span {
+      color: #8c8c8c;
+      font-size: 12px;
+      font-weight: 300;
+      line-height: 14px;
+      text-transform: none;
+      margin: 0;
     }
